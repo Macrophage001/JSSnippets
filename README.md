@@ -2,7 +2,7 @@
 
 These are just some utility functions that make working with HTML, CSS, and JS easier.
 
-Functions:
+Functions (So far, will add more over time):
 
 # generateHTML
   The 'generateHTML' function generates an html element through Javascript
