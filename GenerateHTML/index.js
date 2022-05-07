@@ -24,7 +24,7 @@ const generateHTML = (str) => {
     }
     var dom = document.createElement('div');
     dom.innerHTML = str;
-    return dom;
+    return dom.children[0];
 }
 
 // Display 'Hello World'
