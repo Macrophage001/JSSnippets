@@ -4,6 +4,7 @@ const body = document.querySelector('body');
     Generates an HTML element from a template string. Useful for customizing HTML Elements in a more visually pleasing way.
 */
 const generateHTML = (str) => {
+    // Older browsers don't support DOMParser, so check to make sure.
     const support = (function () {
       if (!window.DOMParser) return false;
       var parser = new DOMParser();
